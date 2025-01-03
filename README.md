@@ -69,10 +69,6 @@ To run the ANPR system, use the `main.py` script. Ensure that you have the YOLO 
 python main.py
 ```
 
-### Inputting a Video
-
-To input a video, place your video file in the `videos/` directory and update the `cap = cv2.VideoCapture(r'./videos/your_video.mp4')` line in `main.py` with the path to your video file.
-
 For example:
 
 ```python
